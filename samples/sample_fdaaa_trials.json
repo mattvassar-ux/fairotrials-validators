@@ -1,0 +1,20 @@
+[
+  {
+    "nct_id": "NCT01234567",
+    "primary_completion_date": "2023-01-15",
+    "results_first_posted_date": "2023-12-01",
+    "is_applicable": true
+  },
+  {
+    "nct_id": "NCT22223333",
+    "primary_completion_date": "2022-05-10",
+    "results_first_posted_date": "",
+    "is_applicable": true
+  },
+  {
+    "nct_id": "NCT99999999",
+    "primary_completion_date": "2024-01-01",
+    "results_first_posted_date": "2025-03-05",
+    "is_applicable": false
+  }
+]

@@ -1,0 +1,19 @@
+[
+  {
+    "trial_id": "NCT01234567",
+    "registry_url": "https://clinicaltrials.gov/study/NCT01234567",
+    "publication_urls": [
+      "https://doi.org/10.1056/NEJM123456"
+    ],
+    "dataset_urls": [
+      "https://zenodo.org/record/12345"
+    ]
+  },
+  {
+    "trial_id": "NCTBADURL",
+    "registry_url": "http://clinicaltrials.gov/study/NCTBADURL",
+    "publication_urls": [
+      "not a url"
+    ]
+  }
+]

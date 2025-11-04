@@ -1,0 +1,20 @@
+[
+  {
+    "doi": "10.1056/NEJM123456",
+    "pmid": "34567890",
+    "title": "Effect of X on Y in Adults (NCT01234567)",
+    "abstract": "We conducted a randomized trial (NCT01234567) ..."
+  },
+  {
+    "doi": "10.1001/JAMA999999",
+    "pmid": "88888888",
+    "title": "Outcomes of Z \u2014 a randomized clinical trial",
+    "abstract": "Primary endpoint was ... (no registry number listed)."
+  },
+  {
+    "doi": "10.1016/S0140-6736(25)01234-5",
+    "pmid": "77777777",
+    "title": "Another paper citing NCT22222222 in abstract",
+    "abstract": "This analysis references NCT22222222 as prior work."
+  }
+]

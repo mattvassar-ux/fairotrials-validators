@@ -1,0 +1,29 @@
+[
+  {
+    "nct_id": "NCT01234567",
+    "arms": [
+      "Drug X",
+      "Placebo"
+    ],
+    "ae_definition": "Any untoward event...",
+    "collection_timeframe": "Baseline to 12 weeks",
+    "solicited_vs_unsolicited": "solicited + unsolicited",
+    "denominators_reported": true,
+    "by_severity": true,
+    "by_seriousness": true,
+    "by_body_system": true
+  },
+  {
+    "nct_id": "NCT22223333",
+    "arms": [
+      "Intervention"
+    ],
+    "ae_definition": "",
+    "collection_timeframe": "",
+    "solicited_vs_unsolicited": "",
+    "denominators_reported": false,
+    "by_severity": false,
+    "by_seriousness": false,
+    "by_body_system": false
+  }
+]

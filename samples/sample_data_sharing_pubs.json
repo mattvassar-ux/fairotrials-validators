@@ -1,0 +1,28 @@
+[
+  {
+    "doi": "10.1056/NEJM123456",
+    "title": "Trial of X vs Y",
+    "abstract": "Data are available in a public repository (Zenodo DOI: 10.5281/zenodo.12345). Code at https://github.com/osu-healthlab/xvy.",
+    "data_availability_section": "All de-identified data are publicly available at Zenodo (DOI: 10.5281/zenodo.12345) under a CC-BY-4.0 license. Code is released at https://github.com/osu-healthlab/xvy.",
+    "dataset_dois": [
+      "10.5281/zenodo.12345"
+    ],
+    "code_urls": [
+      "https://github.com/osu-healthlab/xvy"
+    ],
+    "license": "CC-BY-4.0",
+    "access_model": "open",
+    "embargo_end": ""
+  },
+  {
+    "doi": "10.1001/JAMA999999",
+    "title": "Outcomes of Z",
+    "abstract": "Data available upon reasonable request to the corresponding author.",
+    "data_availability_section": "Data are available upon reasonable request; no code repository is provided.",
+    "dataset_dois": [],
+    "code_urls": [],
+    "license": "",
+    "access_model": "on_request",
+    "embargo_end": "2026-12-31"
+  }
+]

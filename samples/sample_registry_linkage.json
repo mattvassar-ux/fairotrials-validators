@@ -1,0 +1,26 @@
+[
+  {
+    "nct_id": "NCT01234567",
+    "publication_dois": [
+      "10.1056/NEJM123456"
+    ],
+    "publication_pmids": [
+      "34567890"
+    ],
+    "dataset_dois": [
+      "10.5281/zenodo.12345"
+    ]
+  },
+  {
+    "nct_id": "NCT22222222",
+    "publication_dois": [
+      "10.1001/JAMA999999"
+    ],
+    "publication_pmids": []
+  },
+  {
+    "nct_id": "NCT99999999",
+    "publication_dois": [],
+    "publication_pmids": []
+  }
+]

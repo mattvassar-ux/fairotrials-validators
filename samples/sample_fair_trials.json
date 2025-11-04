@@ -1,0 +1,25 @@
+[
+  {
+    "trial_id": "NCT01234567",
+    "title": "Trial of X vs Y",
+    "registry": "ClinicalTrials.gov",
+    "registry_url": "https://clinicaltrials.gov/study/NCT01234567",
+    "sponsor": "OSU-CHS",
+    "phase": "Phase 3",
+    "condition": "Hypertension",
+    "intervention": "Drug X",
+    "publication_dois": [
+      "10.1056/NEJM123456"
+    ]
+  },
+  {
+    "trial_id": "NCT22223333",
+    "title": "Z in Adults",
+    "registry": "ClinicalTrials.gov",
+    "registry_url": "",
+    "sponsor": "Small Sponsor",
+    "phase": "Phase 2",
+    "condition": "Diabetes",
+    "intervention": "Diet"
+  }
+]

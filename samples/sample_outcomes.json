@@ -1,0 +1,21 @@
+[
+  {
+    "nct_id": "NCT01234567",
+    "registered_primary_outcomes": [
+      "SBP change at 12 weeks"
+    ],
+    "published_primary_outcomes": [
+      "SBP change at 12 weeks"
+    ]
+  },
+  {
+    "nct_id": "NCT22223333",
+    "registered_primary_outcomes": [
+      "HbA1c at 24 weeks"
+    ],
+    "published_primary_outcomes": [
+      "HbA1c at 12 weeks",
+      "Weight change"
+    ]
+  }
+]
