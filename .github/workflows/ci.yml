@@ -1,4 +1,3 @@
-
 name: CI
 
 on:
@@ -26,9 +25,18 @@ jobs:
           fairo-harms --input samples/sample_harms.json --out_csv consort_harms_report.csv
           fairo-linkage --registry samples/sample_registry_linkage.json --pubs samples/sample_publications.json --out_csv linkage_report.csv
           fairo-data-sharing --pubs samples/sample_data_sharing_pubs.json --out_csv data_sharing_report.csv
-      - name: Upload CSV artifacts
+
+      - name: Upload all CSV artifacts
         uses: actions/upload-artifact@v4
         with:
           name: reports
+          path: *_report.csv
+
+      # ✅ NEW STEP — upload just two outputs for example folder
+      - name: Upload example outputs
+        uses: actions/upload-artifact@v4
+        with:
+          name: example_outputs
           path: |
-            *_report.csv
+            fair_metadata_report.csv
+            fdaaa_timeliness_report.csv
