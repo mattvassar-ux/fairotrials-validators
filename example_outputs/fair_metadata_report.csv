@@ -1,0 +1,3 @@
+trial_id,has_trial_id,has_title,has_registry,has_registry_url,has_sponsor,has_phase,has_condition,has_intervention,has_persistent_trial_id,has_publication_doi,checks_passed,total_checks,percent_complete
+NCT01234567,True,True,True,True,True,True,True,True,True,True,10,10,100.0
+NCT22223333,True,True,True,False,True,True,True,True,True,False,8,10,80.0

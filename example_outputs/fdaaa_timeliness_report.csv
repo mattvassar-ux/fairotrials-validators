@@ -1,0 +1,4 @@
+nct_id,primary_completion_date,results_first_posted_date,deadline_1yr_after_pcd,status,days_late
+NCT01234567,2023-01-15,2023-12-01,2024-01-15,on_time,0
+NCT22223333,2022-05-10,,2023-05-10,missing,
+NCT99999999,2024-01-01,2025-03-05,2024-12-31,not_applicable,
