@@ -1,5 +1,15 @@
 # FAIROTrials Validators (MVP Bundle)
 
+
+## Project Context
+This repository serves as the prototype for the **FAIROTrials Commons** project,
+an NSF POSE Phase 1 initiative led by Dr. Matt Vassar (Oklahoma State University).
+It provides seven lightweight, reproducible validators for assessing transparency
+and traceability in clinical trial metadata, outcome reporting, and data sharing.
+Each validator is independently executable and Docker-ready, providing a working
+proof-of-concept for a FAIR and Open Science (FAIRO) clinical trial validation ecosystem.
+
+
 Seven lightweight validators for clinical trial transparency & traceability.
 Each validator is a single Python script with sample JSON and CSV output.
 
