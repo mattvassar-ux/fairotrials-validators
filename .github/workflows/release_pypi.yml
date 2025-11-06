@@ -33,13 +33,10 @@ jobs:
       - name: Check package metadata
         run: |
           python -m twine check dist/*
-          
-      - name: List wheel contents
-        run: |
-          python -m zipfile -l dist/*.whl
       
       - name: Publish 📦 to PyPI
-        uses: pypa/gh-action-pypi-publish@v1.9.0
+        uses: pypa/gh-action-pypi-publish@release/v1
         with:
           user: __token__
           password: ${{ secrets.PYPI_API_TOKEN }}
+          verify-metadata: false
