@@ -1,1 +1,3 @@
-# Package for FAIROTrials validators
+"""fairotrials-validators package"""
+
+__version__ = "0.1.0"
