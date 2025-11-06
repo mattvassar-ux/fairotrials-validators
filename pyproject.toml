@@ -1,4 +1,43 @@
 
+# [build-system]
+# requires = ["setuptools>=68"]
+# build-backend = "setuptools.build_meta"
+
+# [project]
+# name = "fairotrials-validators"
+# version = "0.1.0"
+# description = "Seven MVP validators for clinical-trial transparency and traceability (POSE Phase I demo)."
+# readme = "README.md"
+# authors = [{name="Matt Vassar et al.", email="placeholder@example.com"}]
+# license = {text = "Apache-2.0"}
+# requires-python = ">=3.10"
+# classifiers = [
+#   "Programming Language :: Python :: 3",
+#   "License :: OSI Approved :: Apache Software License",
+#   "Operating System :: OS Independent"
+# ]
+
+# [project.scripts]
+# fairo = "validators.cli:main"
+# fairo-fair-meta = "validators.fair_metadata_validator:main"
+# fairo-fdaaa = "validators.fdaaa_timeliness_validator:main"
+# fairo-accessible = "validators.accessible_link_checker:main"
+# fairo-outcomes = "validators.outcome_switching_validator:main"
+# fairo-harms = "validators.consort_harms_validator:main"
+# fairo-linkage = "validators.linkage_validator:main"
+# fairo-data-sharing = "validators.data_sharing_validator:main"
+
+# [tool.setuptools]
+# packages = ["validators"]
+# include-package-data = true
+
+# [tool.setuptools.packages.find]
+# where = ["."]
+# include = ["validators*"]
+# exclude = ["samples*", "example_outputs*", ".github*"]
+
+
+
 [build-system]
 requires = ["setuptools>=68"]
 build-backend = "setuptools.build_meta"
@@ -28,7 +67,6 @@ fairo-linkage = "validators.linkage_validator:main"
 fairo-data-sharing = "validators.data_sharing_validator:main"
 
 [tool.setuptools]
-packages = ["validators"]
 include-package-data = true
 
 [tool.setuptools.packages.find]
