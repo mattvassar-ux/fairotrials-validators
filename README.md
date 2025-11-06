@@ -81,3 +81,7 @@ make docker-build  # build Docker image
 make docker-run    # run one validator in Docker and write CSV to host
 make package       # build wheel and sdist
 ```
+
+
+[![✅ Tests Passing](https://github.com/mattvassar-ux/fairotrials-validators/actions/workflows/tests.yml/badge.svg)](https://github.com/mattvassar-ux/fairotrials-validators/actions/workflows/tests.yml)
+
