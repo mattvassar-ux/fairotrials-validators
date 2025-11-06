@@ -1,2 +1,9 @@
 include README.md LICENSE
 recursive-include validators *.py
+prune .github
+prune samples
+prune example_outputs
+exclude *.csv
+exclude *.json
+exclude Dockerfile
+exclude Makefile
