@@ -72,6 +72,15 @@ fairo run-all-samples
 fairo fdaaa --input samples/sample_fdaaa_trials.json --out_csv fdaaa_timeliness_report.csv
 ```
 
+## For Instructors & Students
+
+The Education Pack includes modules and labs designed for classroom and workshop use.
+
+- Module overview: `educational_modules/Module_Overview.md`
+- Lab 1 (Windows): `labs/Lab_01_Run_Validators_Windows.md`
+
+Instructors: see `docs/developer_guide.md` for developer notes.  
+Students who extend validators should examine `validators/template_validator.py` and the corresponding test `tests/test_template_validator.py`.
 
 ## Makefile (handy shortcuts)
 ```
