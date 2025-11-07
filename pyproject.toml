@@ -63,6 +63,7 @@ fairo-outcomes = "validators.outcome_switching_validator:main"
 fairo-harms = "validators.consort_harms_validator:main"
 fairo-linkage = "validators.linkage_validator:main"
 fairo-data-sharing = "validators.data_sharing_validator:main"
+fairo-template = "validators.template_validator:main"
 
 [tool.setuptools]
 packages = ["validators"]
